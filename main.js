@@ -10,7 +10,7 @@ async function getYoutubeThumbnail(ytUrl) {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "3296f78ff9msh51fa4fe84f60d4cp1e1573jsna3fd0595c7af", // Replace with your own key in production
+      "x-rapidapi-key": "", // Replace with your own key in production
       "x-rapidapi-host": "youtube-thumbnail-downloader8.p.rapidapi.com",
     },
   };
