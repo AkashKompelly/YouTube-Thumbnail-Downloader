@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Thumbnail Downloader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="main">
+      <div class="thumbnail-card">
+        <h2><span class="color-red">YouTube</span> Thumbnail Downloader</h2>
+
+        <!-- Input field for YouTube URL -->
+        <input
+          type="text"
+          placeholder="Paste YouTube URL Here"
+          id="url"
+        /><br />
+
+        <!-- Invalid URL warning, hidden by default -->
+        <h4>
+          *Enter Valid URL <br />
+          &lt; https://www.youtube.com/watch?v=BZD5z0sr4Aw &gt;
+        </h4>
+
+        <!-- Thumbnail image preview -->
+        <img src="" id="thumbnail" />
+
+        <!-- Download button -->
+        <input type="button" value="Download" id="downloadBtn" />
+      </div>
+    </div>
+
+    <!-- Script file -->
+    <script src="main.js"></script>
+  </body>
+</html>
